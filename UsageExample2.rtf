@@ -1,0 +1,63 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2758
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 LINEAR OPTIMIZATION CALCULATOR\
+Written by yarov3so\
+\
+ For maximization, please enter "max". \
+ For minimization, please enter "min". \
+\
+ Answer: max\
+\
+Please enter all linear constraints, separated by commas. \
+\
+ ---> "x_i", "X_i", "xi" or "x_i" denote the i_th variable (starting with i=1). \
+ ---> "=", "<=", ">=", "=<" or "=>" are used to relate the two sides in each constraint. \
+ ---> Ensure that constants multiply variables only from the left and not from the right. \
+ ---> Multiplication signs may be omitted. \
+\
+      Constraints:  -4x1+2x2+x3<=8, -2x1+x2-x3<=3, x1-3x2<=6\
+\
+Your linear optimization problem appears to have 3 variables.\
+\
+ If this number is wrong, input the correct number of variables now and press Enter. \
+ Otherwise, leave the answer blank and press Enter. \
+\
+ Number of variables correction: \
+\
+Introducing slack variables: x_4, x_5, x_6\
+\
+Please enter the algebraic expression of the objective function: \
+\
+ f(x_1,x_2,x_3) = -3x1+4x2+3x3\
+\
+The following tableau was registered: \
+\
+Constraint Row #1: [-4.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0] | 8.0\
+Constraint Row #2: [-2.0, 1.0, -1.0, 0.0, 1.0, 0.0, 0.0] | 3.0\
+Constraint Row #3: [1.0, -3.0, 0, 0.0, 0.0, 1.0, 0.0] | 6.0\
+Objective Row:     [3.0, -4.0, -3.0, 0.0, 0.0, 0.0, 1.0] | 0.0\
+\
+The basic solution is feasible.\
+\
+Pivoting on entry (2,2):\
+\
+Constraint Row #1: [0.0, 0.0, 3.0, 1.0, -2.0, 0.0, 0.0] | 2.0\
+Constraint Row #2: [-2.0, 1.0, -1.0, 0.0, 1.0, 0.0, 0.0] | 3.0\
+Constraint Row #3: [-5.0, 0.0, -3.0, 0.0, 3.0, 1.0, 0.0] | 15.0\
+Objective Row:     [-5.0, 0.0, -7.0, 0.0, 4.0, 0.0, 1.0] | 12.0\
+\
+The linear system's feasible region is unbounded due to the presence of unbounded variables: x_1.\
+\
+logout\
+\
+Saving session...\
+...copying shared history...\
+...saving history...truncating history files...\
+...completed.\
+\
+[Process completed]}
