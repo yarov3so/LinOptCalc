@@ -1,5 +1,5 @@
 import streamlit as st
-from objrowinputformat import objrowinputformat
+from objrowinputformat_st import objrowinputformat
 from constrrowinputformat_st import constrrowinputformat
 
 # Supporting functions
