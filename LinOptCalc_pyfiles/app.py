@@ -1,6 +1,6 @@
 import streamlit as st
 from objrowinputformat import objrowinputformat
-from constrrowinputformat import constrrowinputformat
+from constrrowinputformat_st import constrrowinputformat
 
 # Supporting functions
 def delete(a):
