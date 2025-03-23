@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 st.title("Linear Optimization Calculator (LinOptCalc)")
 st.markdown("A versatile implementation of the simplex method for linear optimization that thoroughly documents every step in the optimization process.")
 
-iframe_code="""<iframe src="https://trinket.io/embed/python3/dbf60d5f9ede?outputOnly=true&runOption=run&start=result" width="100%" height="100%" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>"""
+iframe_code="""<iframe src="https://trinket.io/embed/python3/dbf60d5f9ede?outputOnly=true&runOption=run&start=result" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>"""
 
 components.html(iframe_code, height=10000)
 
