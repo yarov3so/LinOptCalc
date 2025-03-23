@@ -342,9 +342,13 @@ dist=[0 for i in range(Nconstr)]
 
 constants=[ConstrRows[i][ncols-1] for i in range(nrows-1)]
 
+likecols=[0 for i in range(Nvar)]
+print(likecols)
 for j in range(Nvar):
     column_j=[ConstrRows[i][j] for i in range(nrows)]
-    if zerocount(column_j)==nrows-1:
+    markers=[int(column_j==[ConstrRows[i][j] for i in range(nrows)]) for j in range(Nvar)]
+    likecols=[likecols[k] + markers[k] for k in range(Nvar)]
+    if zerocount(column_j)==nrows-1 and likecols[j]<=1:
         first_1=first_char(column_j,1)[1]
         soln[j]=constants[first_1]
     else:
