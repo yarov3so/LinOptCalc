@@ -1,6 +1,11 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+st.set_page_config(
+    page_title="LinOptCalc",
+    page_icon="MHT.png", 
+)
+
 st.title("Linear Optimization Calculator (LinOptCalc)")
 st.markdown("A versatile implementation of the simplex method for linear optimization that thoroughly documents every step in the optimization process.")
 
