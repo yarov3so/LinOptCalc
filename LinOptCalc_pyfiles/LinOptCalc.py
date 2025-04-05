@@ -343,7 +343,7 @@ dist=[0 for i in range(Nconstr)]
 constants=[ConstrRows[i][ncols-1] for i in range(nrows-1)]
 
 likecols=[0 for i in range(Nvar)]
-print(likecols)
+
 for j in range(Nvar):
     column_j=[ConstrRows[i][j] for i in range(nrows)]
     markers=[int(column_j==[ConstrRows[i][j] for i in range(nrows)]) for j in range(Nvar)]
