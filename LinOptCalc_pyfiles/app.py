@@ -10,7 +10,7 @@ st.set_page_config(
 st.title("Linear Optimization Calculator (LinOptCalc)")
 st.markdown("A versatile implementation of the simplex method for linear optimization that thoroughly documents every step in the optimization process.")
 st.markdown("**Note: when specifying the linear constraints, do NOT include the trivial non-negativity ones.**")
-iframe_code="""<iframe src="https://trinket.io/embed/python3/f4afde17d058?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>"""
+iframe_code="""<iframe src="https://trinket.io/embed/python3/f4afde17d058?outputOnly=true&runOption=run&start=result"  height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>"""
 
 components.html(iframe_code, height=600)
 
