@@ -10,9 +10,9 @@ st.set_page_config(
 st.title("Linear Optimization Calculator (LinOptCalc)")
 st.markdown("A versatile implementation of the simplex method for linear optimization that thoroughly documents every step in the optimization process.")
 st.markdown("**Note: when specifying the linear constraints, do NOT include the trivial non-negativity ones.**")
-iframe_code="""<iframe src="https://trinket.io/embed/python3/f4afde17d058?outputOnly=true&runOption=run&start=result"  frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>"""
+iframe_code="""<iframe src="https://trinket.io/embed/python3/f4afde17d058?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>"""
 
-components.html(iframe_code, height=600)
+components.html(iframe_code, height=600, width=600)
 
 st.markdown("""*Crafted by yarov3so*   
 <a href="https://www.buymeacoffee.com/yarov3so" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="width: 9em; height: auto; padding-top: 0.7em; padding-bottom: 1em" ></a>  
