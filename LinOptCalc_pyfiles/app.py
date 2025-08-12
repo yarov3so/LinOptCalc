@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 st.set_page_config(
     page_title="LinOptCalc",
     page_icon="MHT.png", 
-    
+    layout="centered"
 )
 
 st.title("Linear Optimization Calculator (LinOptCalc)")
